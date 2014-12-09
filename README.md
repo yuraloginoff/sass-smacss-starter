@@ -1,5 +1,5 @@
 # Sass Starter Kit
 
-This is just a simple starting framework for [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) based project.
+A simple starting framework for [Sass](http://sass-lang.com) and [Bootstrap](http://getbootstrap.com) based project.
 
-it is built with SMASCC approach.
+Built with [SMACCS](https://smacss.com) approach.

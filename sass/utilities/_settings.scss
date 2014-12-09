@@ -4,9 +4,11 @@
 
 /* Typography */
 $base-font-size: 16px;
+$line-height: 1.6;
+$baseline: $base-font-size * $line-height;
+
 $font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-2: Georgia, serif;
-$baseline: $base-font-size * 1.5;
+$font-2: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /* Colors */
 $color-link: #4183C4;
@@ -15,13 +17,6 @@ $color-link-hover: #333;
 $color-text: #333;
 $color-text-light: #666;
 
-$color-hr: #eee;
-
-$color-1: #4183C4;
-$color-2: #efefef;
-
-$color-validation-error: red;
-$color-validation-success: green;
 
 /* Positioning */
 $margin-multiplier: 2;

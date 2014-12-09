@@ -1,34 +1,40 @@
 /**
  * Description: Simple CSS Framework.
- * Version: 1.0.0
- * Last update: 2014/10/20
+ * Version: 1.0.1
+ * Last update: 2014/12/09
  * Author: Loginov Yura <yuraloginoff@gmail.com>
  */
 
 /* Compass */
 @import "compass";
 
+/* Bootstrap */
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Font awesome */
+@import "font-awesome/font-awesome";
+
 /* Utilites */
 @import "utilities/settings";
 @import "utilities/utilities";
-
-/* Bottstrap or Foundation */
-// @import "bootstrap/bootstrap";
-// @import "foundation/foundation";
+@import "utilities/functions";
 
 /* Base */
 @import "base/normalize";
 @import "base/base";
 @import "base/ie";
 
-/* Fonts */
-// @import "fonts/font-name";
+/* Media queries */
+@import "media-queries/template";
 
 /* Layout */
-@import "layout/nav";
 @import "layout/header";
-@import "layout/main";
 @import "layout/footer";
+@import "layout/nav";
+@import "layout/main";
 
 /* Modules */
 @import "modules/btn";

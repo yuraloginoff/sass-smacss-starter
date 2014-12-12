@@ -2,4 +2,4 @@
 
 A simple starting framework for [Sass](http://sass-lang.com) and [Bootstrap](http://getbootstrap.com) based project.
 
-Built with [SMACCS](https://smacss.com) approach.
+Built with [SMACSS](https://smacss.com) approach.

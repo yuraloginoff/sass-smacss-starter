@@ -3,11 +3,11 @@
  */
 
 .text-left {
-	text-align: left;
+	text-align: left !important;
 }
 
 .text-right {
-	text-align: right;
+	text-align: right !important;
 }
 
 .text-center {
@@ -28,21 +28,17 @@
 
 .no-padding {
 	padding: 0 !important;
-    // margin: 0 !important;
 }
-
-.img-responsive {
-	max-width: 100%;
-	height: auto;
-	display: block;
+.no-padding-r {
+	padding-right: 0 !important;
+}
+.no-padding-l {
+	padding-left: 0 !important;
 }
 
 .img-border {
 	border: 30px solid #fff;
 }
-
-// @import "sprites/*.png";
-// @include all-sprites-sprites(true);
 
 .general-margin {
 	margin-bottom: $general-margin;
@@ -64,8 +60,34 @@
 	position: relative;
 }
 
+.absolute {
+	position: absolute;
+}
+
 .absolute-center{
 	display: inline-block;
 	position: absolute;
 	left: 50%; top: 50%;
 }
+
+.ttu {
+	text-transform: uppercase;
+}
+
+.dib {
+	display: inline-block;
+}
+
+.di {
+    display: inline;
+}
+
+.equal {
+	display: table;
+
+	& > div[class*='col-'] {
+		float: none;
+	    display: table-cell;
+	    vertical-align: middle;
+	}
+} 

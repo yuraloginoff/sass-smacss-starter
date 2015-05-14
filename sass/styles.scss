@@ -1,18 +1,19 @@
 /**
- * Description: Simple CSS Framework.
- * Version: 1.0.1
- * Last update: 2014/12/09
+ * Description: Sass starting kit with a SMACSS approach.
+ * Version: 0.2.0
+ * Last update: 2015/05/14
  * Author: Loginov Yura <yuraloginoff@gmail.com>
+ *
+ * Framework versions:
+ * font-awesome-4.3.0
+ * bootstrap-sass-3.3.4
  */
 
 /* Compass */
 @import "compass";
 
 /* Bootstrap */
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
+@import "bootstrap/bootstrap";
 
 /* Font awesome */
 @import "font-awesome/font-awesome";

@@ -8,5 +8,3 @@ Framework versions:
 
 - font-awesome 4.3.0
 - bootstrap 3.3.4
-
-Date: 2015-05-20

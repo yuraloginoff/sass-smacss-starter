@@ -14,12 +14,16 @@
 	text-align: center;
 }
 
-.align-left {
-	float: left;
+.align-left,
+.float-left,
+.fll {
+	float: left !important;
 }
 
-.align-right {
-	float: right;
+.align-right,
+.float-right,
+.flr {
+	float: right !important;
 }
 
 .clearfix {
@@ -79,7 +83,11 @@
 }
 
 .di {
-    display: inline;
+  display: inline;
+}
+
+.db {
+	display: block;
 }
 
 .equal {
@@ -90,7 +98,7 @@
 	    display: table-cell;
 	    vertical-align: middle;
 	}
-} 
+}
 
 .parent-size {
   position: absolute;

@@ -1,0 +1,46 @@
+/**
+ * Description: Sass starting kit with a SMACSS approach.
+ * Version: 0.3.0
+ * Last update: 2016/01/26
+ * Author: Loginov Yura <yuraloginoff@gmail.com>
+ *
+ * Framework versions:
+ * font-awesome-4.5.0
+ * bootstrap-sass-3.3.6
+ */
+
+/* Compass */
+@import "compass/compass";
+
+/* Bootstrap */
+@import "bootstrap/bootstrap";
+
+/* Font awesome */
+@import "font-awesome/font-awesome";
+
+/* Utilites */
+@import "utilities/settings";
+@import "utilities/utilities";
+@import "utilities/functions";
+
+/* Base */
+// @import "base/normalize";
+@import "base/base";
+@import "base/ie";
+
+/* Layout */
+@import "layout/header";
+@import "layout/footer";
+@import "layout/nav";
+@import "layout/main";
+
+/* Modules */
+@import "modules/btn";
+@import "modules/dividers";
+@import "modules/forms";
+@import "modules/tables";
+@import "modules/misc";
+
+/* Media queries */
+@import "media-queries/template";
+@import "media-queries/retina";
